@@ -1,0 +1,32 @@
+{
+    "RABBITMQ": {
+        "host": "127.0.0.1",
+        "port": 5672,
+        "username": "guest",
+        "password": "guest"
+    },
+    "ACCOUNTS": [
+        {
+            "platform": "ftx",
+            "account": "8342537@qq.com",
+            "access_key": "qIEFi86FANXVezuZUc7qC8NCGRvAjT_c36SHQVEE",
+            "secret_key": "f6TIREdDWQ5nhdnGwdV4k8SkJCCXZxdVfbUezS8Q"
+        },
+        {
+            "platform": "ftx",
+            "account": "8342537@qq.com/SUBACC1",
+            "access_key": "ueL-64hRLfsndtneNXUAbdVe98WHiQhJV1crVx3X",
+            "secret_key": "wMoB2QmYrV7FK4Z9OTqn81TLWt0jycKdFmRjVICN",
+            "subaccount_name": "subacc1"
+        }
+    ],
+    "MARKETS": {
+        "ftx": {
+            "symbols": [
+                "BTC-PERP",
+                "ETH-PERP"
+            ]
+        }
+    },
+    "strategy": "my_test_strategy"
+}
